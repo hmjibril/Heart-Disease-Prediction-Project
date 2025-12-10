@@ -42,6 +42,7 @@ The dataset contains patient information including:
 
 
 🔎 Exploratory Data Analysis (EDA)
+
 📊 1. Categorical Feature Distributions
 
 Countplots were created for features such as:
@@ -53,6 +54,7 @@ Countplots were created for features such as:
   * ST_Slope
 
 These charts revealed strong imbalances and trends, especially in Sex and ChestPainType.
+
 <img width="1315" height="1218" alt="image" src="https://github.com/user-attachments/assets/99099d29-b9e4-4fed-b73a-5832b4d8f019" />
 
 ⭐ Key Insight:
@@ -97,10 +99,13 @@ Top Predictive Features Identified:
  * ST_Slope_Up
  * Sex_M
 These features were later used for model training.
+
 <img width="1020" height="789" alt="image" src="https://github.com/user-attachments/assets/89adebba-cf7a-49f7-b4f7-6af1dd93c6e7" />
+
 Highlights the clinical indicators most associated with heart disease.
 
 🤖 Machine Learning Modeling
+
 1️⃣ Baseline Models
   * A k-NN model was trained using one feature at a time to evaluate predictive strength.
   * This step identifies strong standalone predictors before multivariate modeling.
@@ -110,12 +115,13 @@ Highlights the clinical indicators most associated with heart disease.
 
 
 3️⃣ Hyperparameter Tuning
+
 GridSearchCV tested:
  * k values (1–20)
  * Distance metrics (Minkowski, Manhattan)
 The best model achieved:
- ✔ Strong validation accuracy
- ✔ Optimal balance between bias & variance
+ *  Strong validation accuracy
+ *  Optimal balance between bias & variance
 
 
 📈 Final Model Performance
@@ -131,6 +137,7 @@ Interpretation:
   * False Positive/Negative = misclassifications
 
 <img width="498" height="432" alt="image" src="https://github.com/user-attachments/assets/420e17d5-5fc2-43ad-905c-0231e5629d1c" />
+
 Shows model correctness and error type.
 
 

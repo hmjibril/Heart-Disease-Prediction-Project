@@ -157,7 +157,8 @@ It provides strong portfolio value by showcasing:
  * Medical dataset interpretation
  * Visual storytelling
  * k-NN modeling
- * Hyperparameter optimization
+ * Hyperparameter optimization.
+   
  * Practical insight generation
 
 

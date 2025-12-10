@@ -1,5 +1,5 @@
 ❤️ Heart Disease Prediction — Machine Learning Project
-A complete end-to-end machine learning and data analysis project using Google Colab.
+   * A complete end-to-end machine learning and data analysis project using Google Colab.
 
 📘 Project Overview
 
@@ -7,13 +7,13 @@ This project builds a machine-learning model to predict the presence of heart di
 The workflow includes exploratory data analysis (EDA), missing value handling, feature engineering, visualization, and model optimization using k-Nearest Neighbors.
 
 The workflow includes:
-✔ Data loading & exploration
-✔ Data cleaning & preprocessing
-✔ Visualizing risk patterns
-✔ Feature engineering
-✔ k-NN model building
-✔ Hyperparameter tuning with GridSearchCV
-✔ Test accuracy evaluation
+ * Data loading & exploration
+ * Data cleaning & preprocessing
+ * Visualizing risk patterns
+ * Feature engineering
+ * k-NN model building
+ * Hyperparameter tuning with GridSearchCV
+ * Test accuracy evaluation
 
 
 🧭 Objectives
@@ -119,9 +119,9 @@ The best model achieved:
 
 
 📈 Final Model Performance
-✔️ Test Accuracy:  87.68
+* Test Accuracy:  87.68
 
-✔️ Confusion Matrix
+* Confusion Matrix
    * The confusion matrix visualizes correct vs incorrect predictions across both classes.
 
 Interpretation:
@@ -146,12 +146,12 @@ Shows model correctness and error type.
 
 This project demonstrates an end-to-end machine-learning workflow, from exploratory analysis to final model evaluation.
 It provides strong portfolio value by showcasing:
- ✔ Data cleaning
- ✔ Medical dataset interpretation
- ✔ Visual storytelling
- ✔ k-NN modeling
- ✔ Hyperparameter optimization
- ✔ Practical insight generation
+ * Data cleaning
+ * Medical dataset interpretation
+ * Visual storytelling
+ * k-NN modeling
+ * Hyperparameter optimization
+ * Practical insight generation
 
 
 
